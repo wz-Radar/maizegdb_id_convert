@@ -1,0 +1,3 @@
+# maizeGDB基因ID转换Uniprot蛋白ID
+
+一个小工具，能将maizeGDB数据库上的基因ID转换成对应Uniprot数据库的蛋白ID，若有多个转录本也会输出对应的多个蛋白。具体用法参照示例文件
