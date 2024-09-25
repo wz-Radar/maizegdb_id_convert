@@ -75,5 +75,6 @@ if __name__ == "__main__":
     print(id_table)
     id_table.to_csv(r'output.csv', index=False)
     id_fail = pd.DataFrame(id_fail, columns=['gene_name'])
+    #获取失败的基因id存入fail.csv文件中
     id_fail.to_csv(r'fail.csv', index=False)
     print(t_sum)
