@@ -39,7 +39,7 @@ def mgdp_to_uni(gene_id):
         return uni_ids
 
 if __name__ == "__main__":
-    df_mgdp = pd.read_csv(r"test.csv", dtype = str)
+    df_mgdp = pd.read_csv(r"input.csv", dtype = str)
     id_json = []
     id_fail= []
     t_sum = 0
